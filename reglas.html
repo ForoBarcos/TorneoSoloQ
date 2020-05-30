@@ -2,64 +2,61 @@
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <title>Reglas</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+  <meta charset="utf-8">
+  <title>Reglas</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-    <!-- Favicons -->
-    <link href="img/favicon.png" rel="icon">
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/venobox/venobox.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Main Stylesheet File -->
-    <link href="css/headermio.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
-    <!-- Mis Stylesheet File -->
-    <link href="css/stylemio.css" rel="stylesheet">
-
-
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/stylemio.css" rel="stylesheet">
+    
 </head>
 
 <body>
 
-    <!--==========================
+  <!--==========================
     Header
   ============================-->
-    <header id="header">
-        <div class="container">
+  <header id="header" class="header-fixed">
+    <div class="container">
 
-            <div id="logo" class="pull-left">
-                <a href="index.html" class="scrollto"><img src="img/logo.png" alt="" title=""></a>
-            </div>
+      <div id="logo" class="pull-left">
 
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li class="menu-active"><a href="#intro">Home</a></li>
-                    <li><a href="premios.html">Premios</a></li>
-                    <li><a href="pickem.html">Pick'em</a></li>
-                    <li><a href="reglas.html">Reglas</a></li>
-                    <li class="buy-tickets"><a href="#clasificacion">Clasificacion</a></li>
-                </ul>
-            </nav><!-- #nav-menu-container -->
-        </div>
-    </header><!-- #header -->
-    <!--==========================
-   Reglas
-  ============================-->
-    <div id=lista>
+        <a href="index.html#intro" class="scrollto"><img src="img/logolargo.png" alt="" title=""></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Premios</a></li>
+          <li><a href="index.html#speakers">Pick'Em</a></li>
+          <li class="menu-active"><a href="reglas.html">Reglas</a></li>
+          <li class="buy-tickets"><a href="#clasificacion">Clasificación</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <main id="main" class="main-page">
+ <div id=lista>
         <br>
         <br>
         <br>
@@ -71,7 +68,11 @@
         <h3>5.- Prohibido cambiar el nombre de la cuenta (para mejorar el tracking)</h3>
         <h3>6.- 35/45 games mínimos por semana</h3>
         <h3>7.- Cualquier tipo de ban o restricción de chat resultará en descalificación del torneo.</h3>
+        <h3>8.- La cuenta con la que se jugará en el torneo debe ser nueva(unranked), sin ninguna ranked jugada anteriormente.</h3>
     </div>
+
+
+  </main>
 
     <!--==========================
     Footer
@@ -80,13 +81,7 @@
         <div class="footer-top">
             <div class="container">
                 <div class="row">
-
-                    <div class="col-lg-3 col-md-6 footer-info">
-                        <img src="img/logo.png" alt="TheEvenet">
-                        <p>Web por y para mis chavales de forobarco.<br>
-                            Dep CanarioResentio siempre te recordaremos.</p>
-                    </div>
-
+                    <img id=forobarcos src="img/logopng.png" alt="ForoBarcos logo">
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Links</h4>
                         <ul>
@@ -101,9 +96,9 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Links de utilidad</h4>
                         <ul>
-                            <li><i class="fa fa-angle-right"></i> <a href="https://euw.op.gg/"  target='_blank'>OP.GG</a></li>
-                            <li><i class="fa fa-angle-right"></i> <a href="https://www.leagueofgraphs.com/es/"  target='_blank'>League of Graphs</a></li>
-                            <li><i class="fa fa-angle-right"></i> <a href="https://www.twitch.tv/"  target='_blank'>Twitch</a></li>
+                            <li><i class="fa fa-angle-right"></i> <a href="https://euw.op.gg/" target='_blank'>OP.GG</a></li>
+                            <li><i class="fa fa-angle-right"></i> <a href="https://www.leagueofgraphs.com/es/" target='_blank'>League of Graphs</a></li>
+                            <li><i class="fa fa-angle-right"></i> <a href="https://www.twitch.tv/" target='_blank'>Twitch</a></li>
                         </ul>
                     </div>
 
@@ -117,7 +112,7 @@
                         </p>
 
                         <div class="social-links">
-                            <a href="https://www.instagram.com/forobarcossoloqchagenlle/?hl=es" class="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.instagram.com/forobarcossoloqchagenlle/?hl=es" class="instagram" target='_blank'><i class="fa fa-instagram"></i></a>
                         </div>
 
                     </div>
@@ -131,7 +126,7 @@
                 &copy; Copyright <strong>ForoBarcosSoloQChagenlle</strong>. Todos los derechos reservados por los Peaky Blinders
             </div>
             <div class="credits">
-                Designed by <a href="https://www.instagram.com/franmadu6/?hl=es"  target='_blank'>Fran Madueño</a>
+                Designed by <a href="https://www.instagram.com/franmadu6/?hl=es" target='_blank'>Fran Madueño</a>
             </div>
         </div>
     </footer><!-- #footer -->
@@ -155,4 +150,6 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
     <script src="js/mainmio.js"></script>
-</body></html>
+</body>
+
+</html>
