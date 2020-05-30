@@ -104,7 +104,33 @@ background-color: #f82249;
    
 }
 
+div#marcoreglas2{
+background-color: #4d08bc;
+    margin: 8px;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+div#marcoreglas3{
+background-color: #1d1c1c;
+    margin: 8px;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
 img#plataicono{
     width: 25%;
     height: 15%;
+}
+
+div#clasificacion{
+    margin: 10px;
+}
+
+div#clasificacion1{
+    margin: 10px;
 }
