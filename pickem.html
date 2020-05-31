@@ -59,38 +59,42 @@
         <div id=lista>
             En esta sección haremos un ranking a modo de quiniela
         </div>
-        <table cellpadding="0" cellspacing="0" border="0">
-                        <thead>
-                            <tr>
-                                <th>Nombre</th>
-                                <th>Apodo</th>
-                                <th>Elo</th>
-                                <th>Partidas</th>
-                                <th>Ganadas</th>
-                                <th>Perdidas</th>
-                                <th>WinRate</th>
-                            </tr>
-                        </thead>
-            <tr>
-                <td>Madu</td>
-                <td>Probando</td>
-                <td>Hierro18</td>
-                <td>2</td>
-                <td>1</td>
-                <td>1</td>
-                <td>50%</td>
-            </tr>
-            <tr>
-                <td>Juaki</td>
-                <td>Probando</td>
-                <td>Hierro18</td>
-                <td>2</td>
-                <td>1</td>
-                <td>1</td>
-                <td>50%</td>
-            </tr>
-        </table>
-
+        <div id=formulario>
+             <form name="frmContacto" method="post" action="sendbymail.php">
+                <table width="500px">
+                    <tr>
+                        <td>
+                            <label for="first_name">Nombre: </label>
+                        </td>
+                        <td>
+                            <input type="text" name="first_name" maxlength="50" size="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Dirección de E-mail: </label>
+                        </td>
+                        <td>
+                            <input type="text" name="email" maxlength="80" size="35">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="comments">Quiniela: </label>
+                        </td>
+                        <td>
+                            <textarea name="comments"  cols="30" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Enviar">
+                            <input type="Reset" value="Borrar datos">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </main>
 
     <!--==========================
@@ -142,7 +146,7 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong>ForoBarcosSoloQChagenlle</strong>. Todos los derechos reservados por los Peaky Blinders
+                &copy; Copyright <strong>ForoBarcosSoloQChallenge</strong>. Todos los derechos reservados por los Peaky Blinders
             </div>
             <div class="credits">
                 Designed by <a href="https://www.instagram.com/franmadu6/?hl=es" target='_blank'>Fran Madueño</a>
@@ -169,6 +173,4 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
     <script src="js/mainmio.js"></script>
-</body>
-
-</html>
+</body></html>

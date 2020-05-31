@@ -134,3 +134,13 @@ div#clasificacion{
 div#clasificacion1{
     margin: 10px;
 }
+
+input#formulario{
+    text-align: center;
+}
+div#contacto{
+    text-align: center;
+}
+div#formulario label{
+    color: #555555;
+}
