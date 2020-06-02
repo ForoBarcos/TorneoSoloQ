@@ -171,4 +171,12 @@ div#formulario label {
     .texto_responsive:before {
         content: attr(data-phonetext);
     }
+    th.none{
+        display:none;
+    }
+    td.none{
+        display:none;
+    }
 }
+
+
