@@ -177,6 +177,9 @@ div#formulario label {
     td.none{
         display:none;
     }
+    td.centro{
+        text-align: center;
+    }
 }
 
 
