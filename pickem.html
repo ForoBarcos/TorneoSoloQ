@@ -63,12 +63,12 @@
 
         </div>
         <div id=formulario>
-            <form name="frmContacto" method="post" action="sendbymail.php">
+            <form rolo="form" action="sendbymail.php" method="post" name="contacto" >
                 <div>
-                    <label for="first_name">Nombre: </label>
+                    <label for="nombre">Nombre: </label>
                 </div>
                 <div>
-                    <input type="text" name="first_name" maxlength="50" size="30">
+                    <input type="text" name="nombre" maxlength="50" size="30">
                 </div>
                 <div>
                     <label for="email">Dirección de E-mail: </label>
@@ -77,14 +77,14 @@
                     <input type="text" name="email" maxlength="50" size="30">
                 </div>
                 <div>
-                    <label for="comments">Quiniela: </label>
+                    <label for="quiniela">Quiniela: </label>
                 </div>
                 <div>
-                    <textarea name="comments" cols="30" rows="5"></textarea>
+                    <textarea name="quiniela" cols="30" rows="5"></textarea>
                 </div>
                 <div>
-                    <input type="submit" value="Enviar">
-                    <input type="Reset" value="Borrar datos">
+                    <input name="submit" type="submit" value="Enviar">
+                    <input name="reset" type="Reset" value="Borrar datos">
                 </div>
 
             </form>
