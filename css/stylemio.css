@@ -88,6 +88,16 @@ h1#tabla {
 
 div#lista {
     margin: 5%;
+    font-weight: 600;
+    text-align: center;
+    margin: 1px;
+}
+
+span.ajugar {
+    color: #f82249;
+    font-weight: 600;
+    background-color: #1d194e;
+    border-radius: 5px;
 }
 
 img#forobarcos {
@@ -154,32 +164,62 @@ div#contacto {
 
 div#formulario label {
     color: #555555;
+    align-content: center;
 }
 
+div#formulario {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
 
-.texto_responsive:before{
-  content: attr(data-desktoptext);
+.texto_responsive:before {
+    content: attr(data-desktoptext);
 }
 
 @media (max-width:900px) {
     .texto_responsive:before {
         content: attr(data-tablettext);
     }
+
 }
 
-@media (max-width:400px){
+@media (max-width:600px) {
+    .texto_responsive:before {
+        content: attr(data-tablettext);
+    }
+
+    div#marcoreglas {
+        display: block;
+    }
+
+}
+
+@media (max-width:400px) {
     .texto_responsive:before {
         content: attr(data-phonetext);
     }
-    th.none{
-        display:none;
+
+    th.none {
+        display: none;
     }
-    td.none{
-        display:none;
+
+    td.none {
+        display: none;
     }
-    td.centro{
+
+    td.centro {
         text-align: center;
+    }
+
+    div#marcoreglas {
+        display: block;
     }
 }
 
+td#pickem {
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
 
+}

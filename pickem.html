@@ -56,43 +56,37 @@
     </header><!-- #header -->
 
     <main id="main" class="main-page">
+        <br>
         <div id=lista>
-            En esta sección haremos un ranking a modo de quiniela
+            <h4>En esta sección haremos un ranking a modo de quiniela</h4>
+            <p>¿Como jugar?<br>- Te llevaras 2 puntos si precides el top3 del ranking de cada semana.<br>- Te llevaras 1 punto por adivinar correctamente cada puesto del ranking.<br>- Si consigue predecir cual será el ranking completo de una semana te llevaras 5 puntos.<br>Deberás enviar tu quiniela el dia antes del inicio de cada jornada.<br><span class="ajugar">¡A JUGAR!</span></p>
+
         </div>
         <div id=formulario>
-             <form name="frmContacto" method="post" action="sendbymail.php">
-                <table width="500px">
-                    <tr>
-                        <td>
-                            <label for="first_name">Nombre: </label>
-                        </td>
-                        <td>
-                            <input type="text" name="first_name" maxlength="50" size="25">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="email">Dirección de E-mail: </label>
-                        </td>
-                        <td>
-                            <input type="text" name="email" maxlength="80" size="35">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for="comments">Quiniela: </label>
-                        </td>
-                        <td>
-                            <textarea name="comments"  cols="30" rows="5"></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="submit" value="Enviar">
-                            <input type="Reset" value="Borrar datos">
-                        </td>
-                    </tr>
-                </table>
+            <form name="frmContacto" method="post" action="sendbymail.php">
+                <div>
+                    <label for="first_name">Nombre: </label>
+                </div>
+                <div>
+                    <input type="text" name="first_name" maxlength="50" size="30">
+                </div>
+                <div>
+                    <label for="email">Dirección de E-mail: </label>
+                </div>
+                <div>
+                    <input type="text" name="email" maxlength="50" size="30">
+                </div>
+                <div>
+                    <label for="comments">Quiniela: </label>
+                </div>
+                <div>
+                    <textarea name="comments" cols="30" rows="5"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="Reset" value="Borrar datos">
+                </div>
+
             </form>
         </div>
     </main>
